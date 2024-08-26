@@ -1,0 +1,22 @@
+{
+    "name": "codaptive/wordpress-packagebump",
+    "description": "WordPress Plugin support for PHP Conventional Changelog",
+    "type": "library",
+    "version": "0.0.1",
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Codaptive\\WordpressPackageBump\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Richard Banks",
+            "email": "richard.banks@codaptive.io"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "marcocesarato/php-conventional-changelog": "^1.17"
+    }
+}
